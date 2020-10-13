@@ -1,0 +1,13 @@
+{
+  "showThemeCredit": false,
+  "name": "Web Histories",
+  "shortDesc": "Telling the stories of the people behind the early open web.",
+  "url": "https://hylia.website",
+  "authorEmail": "me@rachelandrew.co.uk",
+  "authorHandle": "@rachelandrew",
+  "authorName": "Rachel Andrew",
+  "enableThirdPartyComments": false,
+  "maxPostsPerPage": 5,
+  "paymentPointer": "$ilp.uphold.com/MggmnFEyQqhk",
+  "faviconPath": "/images/favicon.png"
+}
