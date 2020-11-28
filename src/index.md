@@ -1,9 +1,9 @@
 ---
 layout: home
 title: Web Histories
+metaTitle: Web Histories - telling the stories of the people behind the open web
 archiveButtonText: See all stories
-metaDesc: ''
-socialImage: ''
+socialImage: /images/sharing.jpg
 ---
 
 The Web Histories project is an attempt to document the stories of those who have helped to shape the open web platform, 
