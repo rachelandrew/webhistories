@@ -1,39 +1,29 @@
-body {
-  // Strip the unit off the size ratio to generate a line height
-  $line-height: get-size(600);
-  line-height: $line-height / ($line-height * 0 + 1);
+html {font-size: 100%;} /*16px*/
 
-  @include apply-utility('font', 'base');
+body {
+  font-family: 'Domine', serif;
+  font-weight: 400;
+  line-height: 1.75;
 }
 
-h1,
-h2,
-h3 {
-  @include apply-utility('font', 'serif');
+p {margin: 0 0 1rem 0;}
+
+h1, h2, h3, h4, h5 {
+  margin: 0 0 1.38rem;
+  line-height: 1.3;
 }
 
 h1 {
-  font-size: get-size(700);
+  margin-top: 0;
+  font-size: 3.052rem;
 }
 
-h2 {
-  font-size: get-size(600);
-}
+h2 {font-size: 2.441rem;}
 
-h3 {
-  font-size: get-size(500);
-}
+h3 {font-size: 1.953rem;}
 
-@include media-query('md') {
-  h1 {
-    font-size: get-size(900);
-  }
+h4 {font-size: 1.563rem;}
 
-  h2 {
-    font-size: get-size(800);
-  }
+h5 {font-size: 1.25rem;}
 
-  h3 {
-    font-size: get-size(700);
-  }
-}
+small, .text_small {font-size: 0.8rem;}

@@ -9,6 +9,11 @@
       "text": "About",
       "url": "/about",
       "external": false
+    },
+    {
+      "text": "Timeline",
+      "url": "/timeline",
+      "external": false
     }
   ]
 }

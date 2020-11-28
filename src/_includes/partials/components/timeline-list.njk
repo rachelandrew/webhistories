@@ -1,0 +1,18 @@
+{% if timelineListItems.length %}
+  <section class="timeline-list">
+    <h2>{{ postListHeading }}</h2>
+    <ol class="timeline">
+    {% for item in timelineListItems %}
+        <li>
+            <h3 class="timeline__heading">
+            {{ item.data.title }}
+            </h3>
+            <p class="timeline__date">
+            <time datetime="{{ item.date | w3DateFilter }}">{{ item.date | dateFilter }}</time>
+            </p>
+            <div class="timeline__body">{{ item.templateContent | safe }}</div>
+        </li>
+    {% endfor %}
+    </ol>
+  </section>
+{% endif %}

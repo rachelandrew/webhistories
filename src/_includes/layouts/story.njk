@@ -1,0 +1,35 @@
+{% extends 'layouts/base.njk' %}
+
+{# Intro content #}
+{% set introHeading = title %}
+{% set introSummary %}
+{% endset %}
+
+{% block content %}
+  <main id="main-content" tabindex="-1">
+    <article class="post">
+      <aside class="post__meta">
+          <blockquote><p>{{ pullquote }}</p></blockquote>
+          <p class="">
+            <span>— {{ cite }}</span>
+          </p>
+      </aside>
+      <div class="post__intro">
+      {% include "partials/components/intro.njk" %}
+      </div>
+      <div class="post__body">
+          
+        {{ content | safe }}
+       <p class="post__endnote">{{ cite }} interviewed by {{ author }}. {% if date %}
+              Published <time datetime="{{ date | w3DateFilter }}" class="dt-published">{{ date | dateFilter }}</time>
+            {% endif %}
+      </p>
+      
+      </div>
+
+     
+    </article>
+  </main>
+{% endblock %}
+
+{{ content | safe }}

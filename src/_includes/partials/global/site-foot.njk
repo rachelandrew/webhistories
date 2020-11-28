@@ -1,21 +1,14 @@
-<footer role="contentinfo" class="[ site-foot ] [ pad-top-700 pad-bottom-900 ]">
-  <div class="wrapper">
-    <div class="[ site-foot__inner ] [ md:box-flex space-between align-start ]">
+<footer role="contentinfo" class="site__footer">
+    <div class="wrapper">
       {% if site.shortDesc %}
-        <div>
-          <article class="[ site-foot__details ] [ sf-flow measure-compact ]">
-            <h2 class="font-base text-600">{{ site.name }}</h2>
+      <div class="footer__info">
+      <h2>{{ site.name }} </h2> 
             {{ site.shortDesc | markdownFilter | safe }}
-          </article>
-        </div>
-      {% endif %}
-      <div>
-        {% set ariaLabel = 'footer navigation' %}
-        {% include "partials/components/nav.njk" %}
       </div>
-    </div>
-    <p class="[ site-foot__credit ] [ pad-top-900 ]">
-      A project by <a href="https://rachelandrew.co.uk">Rachel Andrew</a>.
+      {% endif %}
+   
+    <p class="">
+      A project by <a href="https://rachelandrew.co.uk">Rachel Andrew</a> | <a href="/contribute/">Contribution guide</a>
     </p>
-  </div>
+    </div>
 </footer>

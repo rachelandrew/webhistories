@@ -1,13 +1,11 @@
 <a class="skip-link" href="#main-content">Skip to content</a>
-<header role="banner" class="[ site-head ] [ pad-top-700 pad-bottom-700 ">
+<header role="banner" class="site__header">
   <div class="wrapper">
-    <div class="[ site-head__inner ] [ md:box-flex space-between align-center ]">
-      <a href="/" class="[ site-head__site-name ] [ leading-tight ]">
+      <a href="/" class="site__name">
         <span class="visually-hidden">{{ site.name }} - Home</span>
-        <span class="[ site-head__site-name ] [ text-600 ]" aria-hidden="true">{{ site.name }}</span>
+        <span class="" aria-hidden="true">{{ site.name }}</span>
       </a>
       {% set ariaLabel = 'navigation' %}
       {% include "partials/components/nav.njk" %}
-    </div>
   </div>
 </header>

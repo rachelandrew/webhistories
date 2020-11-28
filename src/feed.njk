@@ -15,7 +15,7 @@ permalink: '/feed.xml'
   <name>{{ site.authorName }}</name>
   <email>{{ site.authorEmail }}</email>
 	</author>
-	{% for post in collections.posts %}
+	{% for post in collections.stories %}
   {% set absolutePostUrl %}{{ site.url }}{{ post.url | url }}{% endset %}
   <entry>
     <title>{{ post.data.title }}</title>

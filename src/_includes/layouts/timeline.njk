@@ -1,0 +1,16 @@
+{% extends 'layouts/base.njk' %}
+
+{# Intro content #}
+{% set introHeading = title %}
+{% set introSummary %}{{ content | safe }}{% endset %}
+
+{# Timeline list content #}
+{% set timelineListHeading = 'Timeline' %}
+{% set timelineListItems = collections.events %}
+
+{% block content %}
+  <main id="main-content" tabindex="-1">
+    {% include "partials/components/intro.njk" %}
+    {% include "partials/components/timeline-list.njk" %}
+  </main>
+{% endblock %}

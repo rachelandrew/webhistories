@@ -1,0 +1,18 @@
+{% if postListItems.length %}
+  <section class="home__posts">
+        {% for item in postListItems %}
+          {% if item.date.getTime() <= global.now %}
+            <figure class="home__quote">
+              <blockquote>
+        <p>{{ item.data.pullquote }}</p>
+    </blockquote>
+            <figcaption><a href="{{ item.url }}" class="post-list__link" rel="bookmark">{{ item.data.cite }}</a></figcaption>
+            
+              
+            </figure>
+          {% endif %}
+        {% endfor %}
+
+
+  </section>
+{% endif %}

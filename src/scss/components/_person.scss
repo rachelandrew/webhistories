@@ -1,0 +1,78 @@
+@media (min-width: 800px) {
+    .person {
+        display: grid;
+        grid-template-columns: 1fr 18em;
+        gap: 3em;
+    }
+
+    .person article {
+        grid-column: 1;
+        grid-row: 1;
+    }
+}
+
+.person__details {
+    border: 1px solid var(--text);
+    padding: 1rem;
+    margin-bottom: 4rem;
+}
+
+.person__details ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.person__details li {
+    display: flex;
+    align-items: center;
+}
+
+.person__details svg {
+    margin-right: .5rem;
+}
+
+.person__details a:link {
+    text-decoration: none;
+}
+
+.person__story {
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+.person__people {
+    grid-row: 1;
+    grid-column: 2;
+    background-color: var(--color-fade);
+    color: #ffffff;
+    padding: 20px;
+    border-radius: .2em;
+    align-self: start;
+}
+
+.list__people {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: .8rem;
+}
+
+.list__people a:link,
+.list__people a:visited {
+    background-color: var(--color-strong);
+    color: var(--color-action-text);
+    padding: .2em .5em;
+    transition: .5s;
+    text-decoration: none;
+    border-radius: .2em;
+    display: inline-block;
+    margin: 0 .5em 1em .5em;
+}
+
+.list__people a:hover {
+    background-color: var(--color-fade);
+}

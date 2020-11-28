@@ -52,6 +52,19 @@ module.exports = function(config) {
       .slice(0, site.maxPostsPerPage);
   });
 
+  const liveStories = story => story.date <= now && !story.data.draft;
+  config.addCollection('stories', collection => {
+    return [
+      ...collection.getFilteredByGlob('./src/stories/*.md').filter(liveStories)
+    ].reverse();
+  });
+
+  config.addCollection('storyFeed', collection => {
+    return [...collection.getFilteredByGlob('./src/stories/*.md').filter(liveStories)]
+      .reverse()
+      .slice(0, site.maxPostsPerPage);
+  });
+
   // Plugins
   config.addPlugin(rssPlugin);
   config.addPlugin(syntaxHighlight);

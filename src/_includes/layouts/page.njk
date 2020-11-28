@@ -5,9 +5,11 @@
 
 {% block content %}
   <main id="main-content" tabindex="-1">
-    <article class="[ post ] [ h-entry ]">
+    <article class="post">
+      <div class="post__intro">
       {% include "partials/components/intro.njk" %}
-      <div class="[ post__body ] [ inner-wrapper ] [ leading-loose pad-top-900 pad-bottom-900 text-500 ] [ sf-flow ] [ e-content ]">
+      </div>
+      <div class="post__body">
         {{ content | safe }}
       </div>
     </article>

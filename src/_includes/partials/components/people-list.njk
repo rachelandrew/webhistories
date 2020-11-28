@@ -1,0 +1,15 @@
+{% if peopleListItems.length %}
+  <section class="timeline-list">
+    <h2>{{ peopleListHeading }}</h2>
+    <ol class="people">
+    {% for item in peopleListItems %}
+        <li>
+            <h3>
+            <a href="{{ item.url }}">{{ item.data.name }}</a>
+            </h3>
+            
+        </li>
+    {% endfor %}
+    </ol>
+  </section>
+{% endif %}

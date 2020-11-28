@@ -1,23 +1,27 @@
 {% extends 'layouts/base.njk' %}
 
 {# Intro content #}
-{% set introHeading = title %}
 {% set introSummary %}
   {{ content | safe }}
 {% endset %}
 
 {# Post list content #}
-{% set postListHeading = postsHeading %}
-{% set postListItems = collections.postFeed %}
+{% set storyListItems = collections.stories %}
+
+{# People list content #}
+{% set peopleListItems = collections.people %}
 
 {# Archive link #}
-{% if postListItems.length < collections.posts.length %} 
+{% if storyListItems.length < collections.stories.length %} 
   {% set paginationNextText = archiveButtonText %}
   {% set paginationNextUrl = '/archive' %}
 {% endif %}
 
 {% block content %}
-  <main id="main-content" tabindex="-1">
-    {% include "partials/components/intro.njk" %}
+  <main id="main-content" tabindex="-1" class="home">
+    {% include "partials/components/home-intro.njk" %}
+    {% include "partials/components/home-story-list.njk" %}
+    {% include "partials/components/home-people-list.njk" %}
+    {% include "partials/components/pagination.njk" %}
   </main>
 {% endblock %}

@@ -1,0 +1,20 @@
+{% if storyListItems.length %}
+  <section class="">
+      <h2 class="">{{ postListHeading }}</h2>
+      <ol class="posts__list" reversed>
+        {% for item in storyListItems %}
+          {% if item.date.getTime() <= global.now %}
+            <li>
+              <h3>
+                <a href="{{ item.url }}" class="post-list__link" rel="bookmark">{{ item.data.title }}</a>
+              </h3>
+              <p>{{ item.data.desc }}</p>
+              <p>
+                Posted: <time datetime="{{ item.date | w3DateFilter }}">{{ item.date | dateFilter }}</time>
+              </p>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ol>
+  </section>
+{% endif %}
