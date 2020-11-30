@@ -1,0 +1,11 @@
+{% if storyListItems.length %}
+<aside class="home__people">
+    <h2>Stories</h2>
+    <p>The interviews.</p>
+    <ul class="list__people">
+        {% for item in storyListItems %}
+            <li><a href="{{ item.url }}" class="post-list__link" rel="bookmark">{{ item.data.title }}</a></li>
+        {% endfor %}
+    </ul>
+</aside>
+{% endif %}
