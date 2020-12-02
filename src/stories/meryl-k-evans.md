@@ -38,7 +38,7 @@ Then I found myself involved with web design in a different way ... as a writer.
 <p>It all started with submitting an article to Webreference.com Newsletter with Andy King as its editor. 
 I won a copy of Photoshop. 
 The article was a hit that led to a few more. 
-Eventually, I landed an incredible opportunity to write for <a href="/people/molly-holzsclag/">Molly Holzsclag</a> in which I interviewed the WaSP folks: 
+Eventually, I landed an incredible opportunity to write for <a href="/people/molly-holzschlag/">Molly Holzschlag</a> in which I interviewed the WaSP folks: 
 <a href="/people/jeffrey-zeldman/">Jeffrey Zeldman</a> and <a href="/people/steven-champeon/">Steven Champeon</a>.”</p></blockquote>
 
 Evans mentions that she conducted several interviews which are linked from Zeldman's blog, 
