@@ -50,14 +50,13 @@ It's sad how much of our history is disappearing.
 By 2003, she was working as a web design guide for [InformIT](https://www.informit.com/), 
 along other places. There is a short list of articles listed with her bio at [Peachpit](https://www.peachpit.com/authors/bio/7bc42bc2-2239-48e4-9e70-6f2ef1085759), 
 including [a lovely 2003 interview with Zeldman](https://www.peachpit.com/articles/article.aspx?p=102019).
-Evans also interviewed a number of the web celebrities of the day for [Nick Finck](/people/nick-finck/)'s Digital Web Magazine. 
-I found [an archive of some of those articles](http://www.digital-web.com/types/interviews/). 
+Evans also interviewed a number of the web celebrities of the day for [Nick Finck](/people/nick-finck/)'s Digital Web Magazine.  
 
 > “It was like writing for a TV Guide where you interview the famous people and creators behind the TV shows. 
 Except replace TV with web design stars.”
 
 As an early adopter of WordPress since V0.7, 
-she was happy to [interview Matt Mullenweg](http://www.digital-web.com/articles/matt_mullenweg/).  
+she was happy to interview Matt Mullenweg.  
 
 <blockquote><p>“One of my favorite interviews was with Bruce Lawson. 
 He cracks me up every time we have a conversation. And he's still going strong today!</p>
