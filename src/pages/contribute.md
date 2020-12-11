@@ -21,7 +21,7 @@ I'll be very happy to act as your editor.
 What am I missing? I'd like the timeline to feature the key events in the development of the web platform. 
 Raise an issue and I can add the data. 
 Or you can submit a Pull Request, 
-timeline events are created by adding a new file under `/events` inthe following format:
+timeline events are created by adding a new file under `/events` in the following format:
 
 ```
 ---
