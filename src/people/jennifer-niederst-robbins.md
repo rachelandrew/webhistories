@@ -16,7 +16,7 @@ She also co-founded the popular Artifact Conference that helped designers adapt 
 
 ## Books
 
-- [Designing for the Web](), 1996, O’Reilly
+- Designing for the Web, 1996, O’Reilly
 - [Web Design in a Nutshell](https://www.oreilly.com/library/view/web-design-in/0596009879/): 1998 1st ed., 2001 2nd ed., 2006 3rd ed., O’Reilly
 - [HTML Pocket Reference](https://www.oreilly.com/library/view/html5-pocket-reference/9781449368777/): 1999 1st ed., 2002 2nd ed., 2006 3rd ed., 2009 4th ed., 2013 5th ed., O’Reilly
 - [Learning Web Design](https://www.learningwebdesign.com/): 2001 1st ed., 2003 2nd ed., 2007 3rd ed.,2012 4th ed., 2018 5th ed., O’Reilly
