@@ -5,5 +5,5 @@ image: false
 tags: events
 ---
 
-_Teach Yourself Web Publishing with HTML in a Weeks_ is published. 
+_Teach Yourself Web Publishing with HTML in a Week_ is published. 
 Author: [Laura Lemay](/people/laura-lemay).

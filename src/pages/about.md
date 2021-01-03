@@ -38,17 +38,17 @@ I hope to continue to interview folk and write stories up to the present day.
 
 ## How you can help
 
-I am starting this project as part of my MA in Journalism.  
-For that I would love folk to complete and share my survey  
-asking a few questions to try and ascertain who people think of when they think of the history of our industry.
-
-[Take the survey and please share it!](https://forms.gle/kzeVgfTifosXPhEH7)
-
-I would also be open to any contributions to this site. 
+I am open to any contributions to this site. 
 That might be a suggestion of someone to interview, 
 some help completing the timeline or the biographies of folk who are mentioned. 
 [Find out more about contributing](/contribute/).
 
 Or, drop me a line on me@rachelandrew.co.uk.
+
+## Thanks to
+
+- Andy Bell and his [Hylia](https://hylia.website/) project for saving me a lot of time getting the initial site up and running.
+- Jay Hoffmann and [THe History of the Web](https://thehistoryoftheweb.com/)
+- ALl of the folk who have been willing to be interviewed.
 
 &mdash;Rachel Andrew ([@rachelandrew](https://twitter.com/rachelandrew))
