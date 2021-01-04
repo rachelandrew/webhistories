@@ -4,6 +4,8 @@ permalink: '/about/index.html'
 layout: layouts/page.njk
 ---
 
+**This is a frozen branch for marking purposes, see [WebHistories.org](https://webhistories.org) for the production site.**
+
 I've been a web developer since 1996, back when we called ourselves webmasters. 
 The first web browsers I installed, from a CD provided to me by my ISP, were Internet Explorer and Netscape 2. 
 By the time the version 4 browsers emerged, I had been introduced to the idea of web standards. 
